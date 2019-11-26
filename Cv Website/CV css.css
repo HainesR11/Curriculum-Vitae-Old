@@ -1,0 +1,295 @@
+body{
+    margin: 0px;
+    font-family: monospace;
+}
+
+.container{
+    width: 100%;
+}
+
+.first-section{
+    width: 100%;
+}
+
+.background{
+    width: 49%;
+    resize: vertical;
+    overflow: auto;
+    height: 700px;
+    float: left;
+    background-image: url(Images/Background_3.jpg);
+    opacity: 0.95;
+}
+
+
+.fancy-link{
+    text-align: center;
+    color: white;
+    border: solid 2px white;
+    transition: 0.3s;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.fancy-link:visited{
+    color: white;
+    background-color: transparent;
+}
+
+.fancy-link:hover{
+    background-color: white;
+    color: black;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.profile_pic{
+    height: 30%;
+    width: 45%;
+    display: inline-block;
+    padding-top: 30%;
+    color: white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    opacity: 1;
+}
+
+
+
+.profile_pic img{
+    border-radius: 50px;
+}
+
+.profile_pic{
+    border: 0px;
+    border-radius: 20px;
+}
+
+.personal-info{
+    float: right;
+    resize: vertical;
+    overflow: auto;
+    width: 49%;
+    height: 700%;
+    font-size: 16px;
+    padding-right: 0.5%;
+    padding-top: 10%;
+
+}
+
+.personal-info h1{
+    color: #a7a7a7;
+}
+
+.personal-info hr{
+    width: 70%
+}
+
+.personal-info td{
+    padding-bottom: 5%;
+    font-size: 105%
+}
+
+.more-personal{
+    width: 98%;
+    display: grid;
+    background-color: #686767;
+    color: white;
+    padding-left: 2%;
+}
+
+
+
+.languages{
+    width: 98%;
+    display: grid;
+    background-color: #7a7a7a;
+    padding-left: 2%;
+    color: white;
+}
+
+.work-experience{
+    width: 98%;
+    display: grid;
+    background-color: #a5a5a5;
+    padding-left: 2%;
+    color: white;
+}
+
+.circle-1{
+    border-radius: 500px;
+    border: solid 1px black;
+    width: 300px;
+}
+
+.circle-2{
+    border-radius: 500px;
+    border: solid 1px black;
+    width: 300px;
+}
+
+.circle-3{
+    border-radius: 500px;
+    border: solid 1px black;
+    width: 300px;
+}
+
+.phone-background-white{
+    z-index: -1;
+    position: absolute;
+    left: 40%;
+    top: -8%;
+    transform: rotate(45deg);
+    background-color: #ffffff;
+    border-radius: 20px;
+    width: 175px;
+    height: 300px;
+    text-align: left;
+    border: solid 1px black;
+}
+.test-inside{
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    background-color: black;
+    border-radius: 10px;
+    width:129px;
+    height: 320px;
+  }
+
+  .test-notch-white{
+    position: absolute;
+    left: 55px;
+    top: -5px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    width: 60px;
+    height: 15px;
+}
+
+.phone-background-black{
+    z-index: -1;
+    position: absolute;
+    left: 79%;
+    top: 80%;
+    transform: rotate(315deg);
+    background-color: #616161;
+    border-radius: 20px;
+    width: 175px;
+    height: 300px;
+    text-align: left;
+    border: solid 1px black;
+    opacity: 0.5;
+}
+.test-inside{
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    background-color: black;
+    border-radius: 10px;
+    width: 154px;
+    height: 280px;
+}
+
+.test-notch-black{
+    position: absolute;
+    left: 34px;
+    top: -5px;
+    background-color: #616161;
+    border-radius: 5px;
+    width: 90px;
+    height: 10px;
+}
+
+
+.navbar{
+    color: white;
+    background-color: #616161;
+    height: 60px;
+    width: 100%;
+    text-align: right;
+}
+
+
+
+
+
+/* WORK.HTML */
+
+.background-work{
+    width: 100%;
+    resize: vertical;
+    overflow: auto;
+    height: 70%;
+    background-image: url(Images/Background_3.jpg);
+}
+
+.navbar-buttons{
+    position: relative;
+    right: 1%;
+    width: 50%;
+    float: right;
+    text-align: right;;
+}
+
+.navbar-buttons-home{
+    position: relative;
+    right: 1%;
+    width: 50%;
+    float: right;
+    text-align: right;;
+}
+
+.fancy-link-home:hover{
+    background-color: black;
+    color: white;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.fancy-link-home{
+    text-align: center;
+    color: black;
+    border: solid 2px black;
+    transition: 0.3s;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.profile_pic2{
+    height: 30%;
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+    padding-top: 18.5%;
+    padding-bottom: 15%;
+    color: white;
+    text-shadow: 0px 0 black, 0 2px black, 2px 0 black, 0 0px black;
+}
+
+.parralax-work{
+    background-color: #808080;
+    height: 450px;
+}
+
+.parralax-images{
+    float: left;
+    width: 50%;
+}
+
+.parralax-description{
+    float: right;
+    width: 50%;
+}
+
+.college-work{
+    background-color: #b3b3b3;
+    height: 450px;
+}
+
+.college-images{
+    float: left;
+    width: 50%;
+}
+
+.college-description{
+    float: right;
+    width: 50%;
+}

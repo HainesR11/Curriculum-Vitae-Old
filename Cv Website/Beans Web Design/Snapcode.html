@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Snapcode</title>
+    </head>
+
+    <style>
+        .snap{
+            padding-top: 300px;
+            text-align: center;
+        }
+         .navBar{
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            background-color: black;
+            width: 2550px;
+            height: 110px;
+            color: white;
+            font-size: 30px;
+            overflow: hidden;
+        }
+
+        .navBar a {
+            float: left;
+            color: #f2f2f2;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            font-size: 17px;
+         }
+  
+
+        .navBar a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+  
+
+        .navBar a.active {
+            background-color: #4CAF50;
+            color: white;
+        }
+
+        .menu{
+            float: right;
+        }
+
+        .logo{
+            float: left;
+        }
+        .fade {
+            -webkit-animation-name: fade;
+            -webkit-animation-duration: 3s;
+            animation-name: fade;
+            animation-duration: 5s;
+        }
+
+        @-webkit-keyframes fade {
+            from {opacity: .4} 
+            to {opacity: 1}
+        }
+
+        @keyframes fade {
+            from {opacity: .0} 
+            to {opacity: 1}
+        }
+    </style>
+
+    <body bgcolor="black">
+        <div class="navBar">
+            <div class="logo">
+                <img src="Images/Logo.png" width="500px">
+            </div>
+            <br>
+            <div class="menu">
+                <a href="Beans_Web_Design.html">Home</a>
+                <a href="about-us.html">About Us</a>
+                <a href="product.html">Products</a>
+                <a href="Careers.html">Recuitment</a> 
+            </div>
+                    
+        </div>
+        <br><br>
+        <div class="snap fade">
+            <h1 style="font-size: 50px; font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; text-align:center; color: white">Our snapcode <br>Scan it in the app and message us</h1>
+            <img src="Images/IMG_1496.JPG" width="10%" height="10%">
+        </div>     
+    </body>
+</html>

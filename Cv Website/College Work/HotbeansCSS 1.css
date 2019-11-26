@@ -1,0 +1,74 @@
+@charset "utf-8";
+#container #Profiles {
+	vertical-align: middle;
+	padding-left: 560px;
+}
+
+#Course Table table {
+	border-width: thick;
+
+}
+
+
+
+
+#container {
+	color: #FFFFFF;
+	font-size: 18px;
+	padding-left: 7px;
+	width: 1330px;
+}
+
+#container #Navigation table {
+	clear: none;
+	text-align: center;
+
+
+
+}
+
+#container #Navigation {
+	clear: both;
+	text-align: center;
+	padding-left: 278px;
+}
+
+
+#container #Logo {
+	width: 293px;
+	float: left;
+}
+#container #Form {
+	padding-top: 30px;
+}
+
+
+
+#container #Title {
+	text-align: center;
+	float: left;
+	width: 1286px;
+}
+
+
+
+#container #Banner {
+	float: left;
+	width: 745px;
+	padding-left: 122px;
+}
+#About us p {
+	text-align: center;
+}
+
+#container #MainPicture {
+	text-align: center;
+}
+#container #Form #Field_Names {
+	width: 500px;
+	float: left;
+	padding-left: 76px;
+}
+#container #Form #Map {
+	width: 650px;
+}
